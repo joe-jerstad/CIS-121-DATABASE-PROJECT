@@ -6,10 +6,6 @@ potentially add confirmation to creating a product, customer, order, etc
 IMPORTANT: if a user deletes a customer or product, potentially give them a prompt that asks if they want to delete the customers orders or orders linked
 to the product
 
-When creating Order Detail, if the user enters a product that is already in the order detail, ask them if they want to update the quantity instead
--Either have it after the quantity to verify updating quantity or have it when they enter the product ID
--Potentially add a message that lets you know that editing, deleting, or creating was cancelled when you press enter.
-
 Re format everything so the printing is clear with headers whenever you print out a list of things
 -Use a method in the store to print out the items with correct formatting
 -Or use a function to print out any list with proper formatting so you dont have to change for remaining products etc.
@@ -18,10 +14,6 @@ Re format everything so the printing is clear with headers whenever you print ou
 TRY DELETING PRODUCTS AND CUSTOMERS AND EDITING ORDERS, IF YOU DELETE ALL CUSTOMERS YOU NEED TO DENY THEM FROM EDITING THE CUSTOMER AND
 IF YOU DELETE ALL PRODUCTS THEY NEED TO BE DENIED FROM CREATING A NEW ORDER ITEM
 
-FIGURE STUFF OUT, ALL OF YOUR CREATED LISTS ACCESS THINGS FROM THE STORE SO IF YOU REMOVE STUFF, 
+ALL OF YOUR CREATED LISTS ACCESS THINGS FROM THE STORE SO IF YOU REMOVE STUFF 
 
 ADD A COLUMN FOR IF A PRODUCT OR CUSTOMER IS ACTIVE, ONLY ALLOW USERS TO USE THOSE IN ORDERS IF THEY ARE ACTIVE, IF THEY ARENT DONT LIST THEM, ACTIVE TRUE OR FALSE
-
-LOOK AT WRITING TO JSON INSTEAD OF CSV
-
-PUSH IT ON GIT AND SEND THE LINK
