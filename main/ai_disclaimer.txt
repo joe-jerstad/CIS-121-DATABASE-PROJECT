@@ -1,0 +1,9 @@
+AI DISCLAIMER:
+-clear() function created by Claude
+-choose() function helped by AI to enumerate from 1 instead of 0
+-Claude was used for rounding and formatting the price of products
+-Used Claude for debugging
+-Used Claude for the idea of the headers function
+-Used Claude to determine if the csv exists before loading and create the file if it doesn't exist
+-Used Claude for confirming that the date is in MM/DD/YYYY format
+-Used Claude to format strings width and create fixed helper function
